@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="author" content="Tarit Jaiswal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <img class="logo cursor-none" src="./assets/icons/logo.png" alt="tarit.inc">
+      <ul>
+        <li class="navs ">
+          <a href="#">
+            <i class="material-icons hover_navs">
+            home
+            </i>
+          </a>
+        </li>
+        <li class="navs">
+          <a href="#">
+            <i class="material-icons hover_navs">
+            account_circle
+            </i>
+          </a>
+        </li>
+        <li class="navs">
+          <a href="#">
+            <i class="material-icons hover_navs">
+            email
+            </i>
+          </a>
+        </li>
+        <li class="navs">
+          <a href="#">
+            <i class="material-icons hover_navs">
+            change_history
+            </i>
+          </a>
+        </li>
+        <li class="navs">
+          <p id="user_name" class="hover_navs">
+          Code-I
+          </p>
+        </li>
+      </ul>
+
+    </header>
+    <div class="code_editor">
+        <textarea id="html" placeholder="HTML"></textarea>
+        <textarea id="css" placeholder="CSS"></textarea>
+        <textarea id="js" placeholder="JavaScript"></textarea>
+        <iframe id="code"></iframe>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
